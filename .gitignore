@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+private/
+models/
+.DS_Store
+
+# Local credentials and student databases must never be committed.
+.env
+.env.*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.sqlite-*
+*.db
+*.db-*
